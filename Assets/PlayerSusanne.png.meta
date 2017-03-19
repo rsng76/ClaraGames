@@ -1,0 +1,434 @@
+fileFormatVersion: 2
+guid: ca75181b72c045a4aa1114755d1a9ee2
+timeCreated: 1489070589
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PlayerSusanne_0
+    21300002: PlayerSusanne_1
+    21300004: PlayerSusanne_2
+    21300006: PlayerSusanne_3
+    21300008: PlayerSusanne_4
+    21300010: PlayerSusanne_5
+    21300012: PlayerSusanne_6
+    21300014: PlayerSusanne_7
+    21300016: PlayerSusanne_8
+    21300018: PlayerSusanne_9
+    21300020: PlayerSusanne_10
+    21300022: PlayerSusanne_11
+    21300024: PlayerSusanne_12
+    21300026: PlayerSusanne_16
+    21300028: PlayerSusanne_17
+    21300030: PlayerSusanne_18
+    21300032: PlayerSusanne_19
+    21300034: PlayerSusanne_20
+    21300036: PlayerSusanne_21
+    21300038: PlayerSusanne_22
+    21300040: PlayerSusanne_23
+    21300042: PlayerSusanne_26
+    21300044: PlayerSusanne_27
+    21300046: PlayerSusanne_28
+    21300048: PlayerSusanne_29
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PlayerSusanne_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 851
+        width: 226
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerSusanne_1
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 851
+        width: 226
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerSusanne_2
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 851
+        width: 226
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerSusanne_3
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 851
+        width: 226
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerSusanne_4
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 851
+        width: 226
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerSusanne_5
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 851
+        width: 226
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerSusanne_6
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 851
+        width: 226
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerSusanne_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 568
+        width: 226
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerSusanne_8
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 568
+        width: 226
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerSusanne_9
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 568
+        width: 226
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerSusanne_10
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 568
+        width: 226
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerSusanne_11
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 568
+        width: 226
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerSusanne_12
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 568
+        width: 226
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerSusanne_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 285
+        width: 226
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerSusanne_17
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 285
+        width: 226
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerSusanne_18
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 285
+        width: 226
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerSusanne_19
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 285
+        width: 226
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerSusanne_20
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 285
+        width: 226
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerSusanne_21
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 285
+        width: 226
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerSusanne_22
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 285
+        width: 226
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerSusanne_23
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 285
+        width: 226
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerSusanne_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 226
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerSusanne_27
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 2
+        width: 226
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerSusanne_28
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 2
+        width: 226
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerSusanne_29
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 2
+        width: 226
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
