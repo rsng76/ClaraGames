@@ -104,11 +104,17 @@ public class PlayerController : MonoBehaviour {
 			string levelName = other.gameObject.name;
 			SceneManager.LoadScene ("Scene/" + levelName, LoadSceneMode.Single);
 		}
-		if (other.CompareTag ("Picup")) {
+		if (other.CompareTag ("PicupTee")) {
 			collected += 1;
 			picupCount.text = "Teeblätter "+collected;
 			other.gameObject.SetActive (false);
 		}
+		if (other.CompareTag ("PicupKarte")) {
+			collected += 1;
+			picupCount.text = "Karten "+collected;
+			other.gameObject.SetActive (false);
+		}
+		//Marienkaefer
 		if (other is BoxCollider2D && other.CompareTag("Marienkaefer")) {
 			Jump ();
 			MarienkaeferController script = other.GetComponent<MarienkaeferController> (); 
@@ -118,6 +124,17 @@ public class PlayerController : MonoBehaviour {
 			if (other is CircleCollider2D && other.CompareTag("Marienkaefer")) {
 				MarienkaeferController script = other.GetComponent<MarienkaeferController> (); 
 				script.AttackMarienkaefer ();
+				Damage ();
+			}
+		}
+		//Karte
+		if (other is BoxCollider2D && other.CompareTag("Karte")) {
+			Jump ();
+			KartenController script = other.GetComponent<KartenController> (); 
+			script.KillKarte ();
+		}
+		if (invulnerable <= 0) {
+			if (other is CircleCollider2D && other.CompareTag("Karte")) {
 				Damage ();
 			}
 		}
@@ -168,6 +185,15 @@ public class PlayerController : MonoBehaviour {
 		if (picupCount != null) {
 			picupCount.text = "Teeblätter 0";
 		}*/
+	}
+
+	public void SaveProgress(){
+		Scene s = SceneManager.GetActiveScene();
+		int oldScore = PlayerPrefs.GetInt (s.name);
+		if (collected > oldScore) {
+			PlayerPrefs.SetInt (s.name, collected);
+			PlayerPrefs.Save ();
+		}
 	}
 
 

@@ -31,7 +31,7 @@ public class MarienkaeferController : MonoBehaviour {
 	}
 
 	void OnTriggerEnter2D(Collider2D other){
-		if (other.gameObject.CompareTag ("MarienkaeferBorder")||other.gameObject.CompareTag ("Marienkaefer")) {
+		if (other.gameObject.CompareTag ("MarienkaeferBorder")||other.gameObject.CompareTag ("Marienkaefer")||other.gameObject.CompareTag ("Picup")) {
 			speed = speed * -1;
 		}
 	}

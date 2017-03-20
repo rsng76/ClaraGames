@@ -17,6 +17,15 @@ public class EndLevelScript : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D other)
 	{
-		SceneManager.LoadScene ("Scene/Tee_trinken", LoadSceneMode.Single);
+		if(other.CompareTag("Player")){
+			PlayerController pc = other.gameObject.GetComponent<PlayerController> ();
+			pc.SaveProgress ();
+		}
+		Scene s = SceneManager.GetActiveScene();
+		if ("Level_3_Tee_trinken".Equals (s.name)) {
+			SceneManager.LoadScene ("Scene/Tee_trinken", LoadSceneMode.Single);
+		}else{
+			SceneManager.LoadScene ("Scene/"+name, LoadSceneMode.Single);
+		}
 	}
 }
